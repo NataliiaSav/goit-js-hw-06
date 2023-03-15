@@ -23,3 +23,4 @@ for (let image of images) {
 }
 galleryEl.style.display = "flex";
 galleryEl.style.gap = "30px";
+galleryEl.style.listStyle = "none";
