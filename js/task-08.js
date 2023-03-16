@@ -7,7 +7,8 @@ function handlerSubmit(event) {
   } = event.currentTarget;
   if (email.value === "" || password.value === "") {
     alert("Поле має бути заповнене");
+    return;
   }
-  console.log(`E-mail: ${email.value}, Password: ${password.value}`);
+  console.log(`{ email: ${email.value}, password: ${password.value}}`);
   event.currentTarget.reset();
 }
